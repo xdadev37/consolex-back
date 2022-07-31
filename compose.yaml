@@ -6,6 +6,8 @@ services:
       - "1337:1337"
     volumes:
       - ./src:/home/src
+    depends_on:
+      - consolex-db
 
   consolex-db:
     build: Postgres
