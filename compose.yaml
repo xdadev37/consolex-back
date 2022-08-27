@@ -15,4 +15,7 @@ services:
     ports:
       - "5432:5432"
     volumes:
-      - ./consolex-db:/var/lib/postgresql/data
+      - consolex-db:/var/lib/postgresql/data
+
+volumes:
+  consolex-db:
