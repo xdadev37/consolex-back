@@ -4,10 +4,11 @@
   "info": {
     "singularName": "content",
     "pluralName": "contents",
-    "displayName": "contents"
+    "displayName": "contents",
+    "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
@@ -18,12 +19,12 @@
       "maxLength": 10
     },
     "image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "ps": {
       "type": "text",
@@ -35,6 +36,11 @@
       "type": "text",
       "required": true,
       "minLength": 50
+    },
+    "contentsImages": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::image.image"
     }
   }
 }

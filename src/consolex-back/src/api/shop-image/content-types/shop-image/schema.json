@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shop_images",
+  "info": {
+    "singularName": "shop-image",
+    "pluralName": "shop-images",
+    "displayName": "ShopImages"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ShopImages": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

@@ -4,10 +4,11 @@
   "info": {
     "singularName": "shop",
     "pluralName": "shops",
-    "displayName": "Shop"
+    "displayName": "Shop",
+    "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
@@ -18,12 +19,12 @@
       "maxLength": 20
     },
     "image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "ps": {
       "type": "text",
@@ -33,6 +34,11 @@
     "price": {
       "type": "biginteger",
       "min": "1000"
+    },
+    "shop_images": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::shop-image.shop-image"
     }
   }
 }
