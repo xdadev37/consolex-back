@@ -4,7 +4,8 @@
   "info": {
     "singularName": "shop-image",
     "pluralName": "shop-images",
-    "displayName": "ShopImages"
+    "displayName": "ShopImages",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -12,12 +13,17 @@
   "pluginOptions": {},
   "attributes": {
     "ShopImages": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": true,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Descriptions": {
+      "type": "richtext",
+      "required": true,
+      "minLength": 100
     }
   }
 }
