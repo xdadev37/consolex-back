@@ -10,11 +10,13 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/admin": "^4.3.6",
-    "@strapi/plugin-i18n": "4.3.0",
-    "@strapi/plugin-users-permissions": "4.3.0",
-    "@strapi/strapi": "4.3.0",
-    "pg": "8.6.0"
+    "@strapi/admin": "^4.3.8",
+    "@strapi/plugin-i18n": "4.3.8",
+    "@strapi/plugin-users-permissions": "4.3.8",
+    "@strapi/strapi": "4.3.8",
+    "esbuild-loader": "^2.20.0",
+    "pg": "8.8.0",
+    "react-select": "^5.4.0"
   },
   "author": {
     "name": "A Strapi developer"
@@ -29,19 +31,19 @@
   "license": "MIT",
   "devDependencies": {
     "@babel/polyfill": "^7.12.1",
-    "@babel/runtime": "^7.18.9",
-    "@babel/template": "^7.18.6",
-    "@fingerprintjs/fingerprintjs": "^3.3.4",
-    "@fortawesome/fontawesome-free": "^6.1.2",
+    "@babel/runtime": "^7.19.0",
+    "@babel/template": "^7.18.10",
+    "@fingerprintjs/fingerprintjs": "^3.3.6",
+    "@fortawesome/fontawesome-free": "^6.2.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
-    "@strapi/design-system": "^1.2.1-beta.0",
-    "@strapi/icons": "^1.2.1-beta.0",
-    "@strapi/typescript-utils": "^4.3.0",
+    "@strapi/design-system": "^1.2.2",
+    "@strapi/icons": "^1.2.2",
+    "@strapi/typescript-utils": "^4.3.8",
     "axios": "^0.27.2",
     "codemirror": "5.65.7",
     "cropperjs": "^1.5.12",
     "css-loader": "^6.7.1",
-    "date-fns": "^2.29.1",
+    "date-fns": "^2.29.3",
     "font-awesome": "^4.7.0",
     "highlight.js": "10.7.3",
     "invariant": "^2.2.4",
@@ -63,10 +65,10 @@
     "react-is": "^18.2.0",
     "reselect": "^4.1.6",
     "resolve": "^1.22.1",
-    "sanitize-html": "^2.7.1",
+    "sanitize-html": "^2.7.2",
     "semver": "^7.3.7",
     "style-loader": "^3.3.1",
-    "typescript": "^4.7.4",
+    "typescript": "^4.8.3",
     "whatwg-fetch": "^3.6.2"
   }
 }
