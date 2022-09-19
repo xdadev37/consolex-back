@@ -112,7 +112,6 @@ exports
 *.cache
 build
 .strapi-updater.json
-dist
 
 ############################
 # Yarn

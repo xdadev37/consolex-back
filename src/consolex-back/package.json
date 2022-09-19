@@ -10,34 +10,16 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/admin": "^4.3.8",
-    "@strapi/plugin-i18n": "4.3.8",
-    "@strapi/plugin-users-permissions": "4.3.8",
-    "@strapi/strapi": "4.3.8",
-    "esbuild-loader": "^2.20.0",
-    "pg": "8.8.0",
-    "react-select": "^5.4.0"
-  },
-  "author": {
-    "name": "A Strapi developer"
-  },
-  "strapi": {
-    "uuid": "29ba8b5d-0f47-434f-88ab-b8c103a64e06"
-  },
-  "engines": {
-    "node": ">=12.x.x <=16.x.x",
-    "npm": ">=6.0.0"
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "@babel/polyfill": "^7.12.1",
     "@babel/runtime": "^7.19.0",
-    "@babel/template": "^7.18.10",
     "@fingerprintjs/fingerprintjs": "^3.3.6",
     "@fortawesome/fontawesome-free": "^6.2.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@strapi/design-system": "^1.2.2",
     "@strapi/icons": "^1.2.2",
+    "@strapi/plugin-email": "^4.3.8",
+    "@strapi/plugin-i18n": "4.3.8",
+    "@strapi/plugin-users-permissions": "4.3.8",
+    "@strapi/strapi": "4.3.8",
     "@strapi/typescript-utils": "^4.3.8",
     "axios": "^0.27.2",
     "codemirror": "5.65.7",
@@ -45,30 +27,27 @@
     "css-loader": "^6.7.1",
     "date-fns": "^2.29.3",
     "font-awesome": "^4.7.0",
-    "highlight.js": "10.7.3",
     "invariant": "^2.2.4",
     "js-cookie": "^3.0.1",
     "lodash": "^4.17.21",
-    "markdown-it": "^13.0.1",
-    "markdown-it-abbr": "^1.0.4",
-    "markdown-it-container": "^3.0.0",
-    "markdown-it-deflist": "^2.1.0",
-    "markdown-it-emoji": "^2.0.2",
-    "markdown-it-footnote": "^3.0.3",
-    "markdown-it-ins": "^3.0.1",
-    "markdown-it-mark": "^3.0.1",
-    "markdown-it-sub": "^1.0.0",
-    "markdown-it-sup": "^1.0.0",
     "match-sorter": "^6.3.1",
+    "pg": "8.6.0",
     "pluralize": "^8.0.0",
     "prop-types": "^15.8.1",
-    "react-is": "^18.2.0",
-    "reselect": "^4.1.6",
-    "resolve": "^1.22.1",
-    "sanitize-html": "^2.7.2",
+    "react-select": "^5.4.0",
     "semver": "^7.3.7",
     "style-loader": "^3.3.1",
-    "typescript": "^4.8.3",
     "whatwg-fetch": "^3.6.2"
-  }
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "4e62eb0c-1f37-4d8d-8de3-ad473ed7e5e1"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
 }
